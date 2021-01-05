@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.box {
+  display: inline-block;
+  background: #282c34; /* Цвет фона */
+  width: 35px; /* Ширина блока */
+  height: 35px;
+  /*padding: 70px; !* Поля *!*/
+  /*margin: 1px;*/
+  border: 3px solid #000; /* Параметры рамки */
+  color: white;
+}
+
+.cell {
+  position: relative;
+  float: left;
+  width: 70px;
+  height: 70px;
+  border: 3px solid #000; /* Параметры рамки */
+  display: block;
+}
+
+.Square {
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  font-size: 50pt;
+  font-weight: bold;
+  border-color: black;
+}
+
+
